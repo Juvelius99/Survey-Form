@@ -5,6 +5,39 @@
     <title>Survey Form</title>
 </head>
 <body>
-    
+    <!--Potentially update with CSS-->
+    <h1>Welcome to the official Example Feedback form for a Hotel/Spa environment</h1>
+    <p>feel free to leave your opinion about X,Y and Z here</p>
+    <fieldset id="basic-personal-info">
+      <legend>Personal Information</legend>
+    <form method="POST" action="url-goes-here">
+     <label for="name">Full Name</label>
+     <input type="text" id="name" placeholder="f.ex Steven Cleveland" min="5" max="35" required>
+     <label for="age">Age</label>
+     <input type="number" id="age" placeholder="21" required min="18" max="100">
+     <label for="email">Email</label>
+     <input type="email" id="email" name="email" placeholder="Email@example.com" required>
+     <p>did you stay in our Hotel or did you only enjoy our Spa</p>
+     <label for="Spa">Spa</label>
+     <input type="radio" id="Spa" name="Hotel/Spa">
+     <label for="Hotel">Hotel</label>
+     <input type="radio" Id="Hotel" name="Hotel/Spa">
+    </fieldset>
+    <fieldset>
+        <legend>Would you recommend us to your friends and how likely?</legend>
+        <label for="likelihood">Likelyhood of Recommendation</label>
+        <select id="likelihood" name="likelihood">
+            <option value="5">very likely</option>
+            <option value="4">likely</option>
+            <option value="3">indifferent</option>
+            <option value="2">unlikely</option>
+            <option value="1">very unlikely</option>
+        </select>
+        <label for="Textarea">Do you have any other Feedback?</label>
+        <input type="textarea" name="Textarea" id="Textarea" rows="5" cols="30"> 
+    </fieldset>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
 </body>
 </html>
