@@ -20,10 +20,11 @@ Through building this Survey Form, I practiced:
 - Applying HTML best practices for clean and maintainable code
 - Managing project versioning and workflow with Git and GitHub
 
-## Future Improvements
+## Potential Future Improvements
 - Add CSS styling to enhance the visual presentation of the form
 - Implement more advanced validation techniques with JavaScript
 - Explore responsive design to improve usability on different devices
+- Implement Aria accesibility Standards
 
 ---
 
